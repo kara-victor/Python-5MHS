@@ -21,10 +21,13 @@ def line_stat(lines):
 def main():
     if len(sys.argv) == 1:
         lines = sys.stdin.readlines()
-        count = 17
+        count_str, count_word, count_bite = line_stat(lines)
+        print(f"{count_str:>7}{count_word:>8}{count_bite:>8}")
     elif len(sys.argv) == 2:
         filename = sys.argv[1]
         lines = process_file(filename)
+        count_str, count_word, count_bite = line_stat(lines)
+        print(f"{count_str:>7}{count_word:>8}{count_bite:>8} {filename}")
     else:
         sum_str = 0
         sum_word = 0
