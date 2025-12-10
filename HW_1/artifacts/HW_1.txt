@@ -1,0 +1,158 @@
+1.1
+test 1
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\nl.py file1.txt
+1  NPRTq7kBgg7 m9MGpfAPVNQ4RjaFnXf3Gfb qfU0
+2  eGYdJVdThDoZ5zmbzXOGk6iL8HBDPmEN2i5FcsuF
+3  5VSwHMTIv5faJ2LRBehtfd3AHhaYi473hjN4zxHw
+4  Ct9E2EEiI2 4JfQZu6l70YbVLlaE7l1QeO22U4zV
+5  ir9qpAHsVh5AS09CXZoMsbmYOOQdRxZo9MEjU6VU
+6  OPS85jgyxCe7EdkvljYYckEgl2AGwzhpiBehFicQ
+7  KszilrPYWD5nucQjQRe5JGh Z3dNHtIFrCx5JRXQ
+8  NEP200FEPP8btxv6jyzyMf5wTV42coaGj4Jh81K6
+9  AuC8Tna6h7fd9YkfBg3pVO2Xi0iR2PNXdPiwFOMD
+10  gjqOBirrvwEcHy5NtbYIn6Ksh2e6LEs70TxY2yFH
+11  SWODYjkCtXzU5uxqEf9AnvFoIehYhKFfjom3CODe
+12  PG9tKQiZ6MpTX8tmPlo27JnBYWEAUCjGfH9amTU1
+13  R2nf0wWlGSA4XIRiw0iJAV0jg8L0EL3BLPmT7wMT
+14  yOJCo3SlcNeM9 YlZ68uJPRSJrLx6F2wuyVzGAB8
+15  YNTsssmKsCOezCfZ8pZEAS3yPmuN7vVULfLesdlP
+16  vC4p31uf9UsTHiXrIHAjxQOaZrV8IOipJQLkFZX8
+17  vZWsbBs4aOYaGGDYrtvYdIAK1LzCEeTPz5Mdks24
+18  o6reC29zLbIn4vXBR BF1ZeBORRx4zUemu6F1nde
+19  4qG6wSSig1Y0t6zJmCS2ONrZquvQcPExjUDMaAn
+20  01dEw6A2ZEuDd aRaqvc7A1S6uENUpYlK01he6th
+
+test 2
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\nl.py file1.txt file2.txt
+Error: too many command-line arguments.
+Usage: 'python nl.py <filename>' or 'python nl.py'
+
+test 3
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\nl.py file4.txt
+Error opening file 'file4.txt': [Errno 2] No such file or directory: 'file4.txt'
+
+test 4
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\nl.py
+1
+2
+3
+4
+5
+^Z
+1  1
+2  2
+3  3
+4  4
+5  5
+
+==========
+1.2
+test 1
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\tail.py file1.txt
+SWODYjkCtXzU5uxqEf9AnvFoIehYhKFfjom3CODe
+PG9tKQiZ6MpTX8tmPlo27JnBYWEAUCjGfH9amTU1
+R2nf0wWlGSA4XIRiw0iJAV0jg8L0EL3BLPmT7wMT
+yOJCo3SlcNeM9 YlZ68uJPRSJrLx6F2wuyVzGAB8
+YNTsssmKsCOezCfZ8pZEAS3yPmuN7vVULfLesdlP
+vC4p31uf9UsTHiXrIHAjxQOaZrV8IOipJQLkFZX8
+vZWsbBs4aOYaGGDYrtvYdIAK1LzCEeTPz5Mdks24
+o6reC29zLbIn4vXBR BF1ZeBORRx4zUemu6F1nde
+4qG6wSSig1Y0t6zJmCS2ONrZquvQcPExjUDMaAn
+01dEw6A2ZEuDd aRaqvc7A1S6uENUpYlK01he6th
+
+test 2
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\tail.py file1.txt file2.txt file3.txt
+==> file1.txt <==
+SWODYjkCtXzU5uxqEf9AnvFoIehYhKFfjom3CODe
+PG9tKQiZ6MpTX8tmPlo27JnBYWEAUCjGfH9amTU1
+R2nf0wWlGSA4XIRiw0iJAV0jg8L0EL3BLPmT7wMT
+yOJCo3SlcNeM9 YlZ68uJPRSJrLx6F2wuyVzGAB8
+YNTsssmKsCOezCfZ8pZEAS3yPmuN7vVULfLesdlP
+vC4p31uf9UsTHiXrIHAjxQOaZrV8IOipJQLkFZX8
+vZWsbBs4aOYaGGDYrtvYdIAK1LzCEeTPz5Mdks24
+o6reC29zLbIn4vXBR BF1ZeBORRx4zUemu6F1nde
+4qG6wSSig1Y0t6zJmCS2ONrZquvQcPExjUDMaAn
+01dEw6A2ZEuDd aRaqvc7A1S6uENUpYlK01he6th
+
+==> file2.txt <==
+BkMA8kMRI2Exx6xWfp6GaQZQqmD0C8gd1TivFj5I
+oRKWCrRUoLeQ8Hs 5b oTc2BLcmfI3Vl4gcy4bFa
+zd6hUj flxb8P1kwolA54k2FFLt76 SiHOIulGSO
+c3iaQDjXuHHR3rsyoFbxMdgj3ruIyD363LkqaDWU
+jPxR7Wtc7U3yWoRXVtYVaBy2OpZfwSy3xEbH6WQu
+3lhSVpAG2WmqUB7t0mrnHDN6velCVkF5X4SjDCaM
+H2QFaYZwpl6rQTRMkkfJXcHqtw3khCohpFsuTV8K
+Naa58ktj4PRzHH89WBpGMtXAzE0BHGe800AWBu3I
+bVv3fsxowkCYqdFqExc9of7cHIwKyqMWaGS56WLW
+6UjuGcQQg74IzkXB0PUuUcH000sFOUMejgmIu Dh
+
+==> file3.txt <==
+xJvIkqN4XXLPImN aNyzFmBiaLPpfYWYG29PqMEA
+viyhsTKcR4u0vxDvZzQP6zHmzG3KGI1LwgAMnh 6
+jsZOc43i8Pby4seIdkdbJ7MvOeVw1L DRMYrGlmv
+Q8F LQAMTg6pwBrwKY8JjuLFbwIuHZ5ChyO82uZF
+w9JYg BaC40veXPa7OGWFHn024Gr2D9WSAY7q7pV
+iLifJBWlzq fVrCN7Gk OVFvycoNre8AyQn0naTQ
+FbRbj JdOZfBv6gLnIVWFb9sjD1UBuovhg yLcJX
+9ibsehMikCBI1hDkMQcLetF8L7DzZtX7WmbtWEzA
+OElOA5ADrWAlDHWJ22J305WiSeMu1rDUUY3A67mS
+g64Gy62fhkMhUNSOsVfO25biF5Gh2nLKsA8La rd
+
+test 3
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\tail.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+12
+14
+15
+16
+171
+18
+^Z
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+12
+14
+15
+16
+171
+18
+
+1.3
+test 1
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\wc.py file1.txt
+     20      27     819 file1.txt
+
+test 2
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\wc.py file1.txt file2.txt file3.txt
+     20      27     819 file1.txt
+     20      28     819 file2.txt
+     20      38     819 file3.txt
+     60      93    2457 total
+
+test 3
+PS D:\USERs\KVA\PycharmProjects\PythonHW1> py .\wc.py
+q
+qqq
+qqqqq
+^Z
+      3       3      12
