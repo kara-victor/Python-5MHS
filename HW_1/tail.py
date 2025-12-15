@@ -5,7 +5,7 @@ def process_file(filename):
     try:
         with open(filename, "r") as f:
             lines = f.readlines()
-    except Exception as e:
+    except OSError as e:
         print(f"Error opening file '{filename}': {e}", file=sys.stderr)
         sys.exit(1)
     return lines
