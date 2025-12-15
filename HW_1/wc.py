@@ -41,8 +41,8 @@ def main():
             sum_word += count_word
             sum_bite += count_bite
         print(f"{sum_str:>7}{sum_word:>8}{sum_bite:>8} total")
-        return
 
 
 if __name__ == "__main__":
     main()
+
