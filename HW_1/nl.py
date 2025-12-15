@@ -9,7 +9,7 @@ def main():
         try:
             with open(filename, "r") as f:
                 lines = f.readlines()
-        except Exception as e:
+        except OSError as e:
             print(f"Error opening file '{filename}': {e}", file=sys.stderr)
             sys.exit(1)
     else:
@@ -18,7 +18,7 @@ def main():
         sys.exit(1)
 
     for i, line in enumerate(lines, start=1):
-        print(f"{i}  {line.rstrip()}")
+        print(f"{i:>5}  {line.rstrip()}")
 
 
 if __name__ == "__main__":
