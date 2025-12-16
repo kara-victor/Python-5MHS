@@ -8,7 +8,7 @@ authors = [
 
 requires-python = "3.11"
 
-dependencies = [https://test.pypi.org/simple/ latex-generator-karavictor==0.1.1]
+dependencies = [latex-generator-karavictor==0.1.1]
 
 [build-system]
 requires = ["setuptools"]
