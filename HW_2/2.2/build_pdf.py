@@ -13,3 +13,4 @@ latex = generate_document(table, pic)
 
 with open("result.tex", "w", encoding="utf-8") as f:
     f.write(latex)
+
